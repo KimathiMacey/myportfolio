@@ -1,0 +1,297 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #D4F09E;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    
+}
+
+#navbar li a:hover,
+#navbar li a.active
+{
+    color: rgb(74, 119, 119);;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+    content: "";
+    width:30%;
+    height: 2px;
+    background: rgb(74, 119, 119);;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+  
+  #home .intro-header {
+      padding-top: 100px;
+      padding-bottom:50px;
+      text-align: center;
+      color: white;
+      height: 650px;
+      background-image: url('./Images/backimg.jpg');
+      background-size: cover;
+   }
+  
+  #home h1 {
+    margin-top: 90px;
+    }
+  #home p{
+    margin-top: 90px;
+    text-align: justify;
+    font-size: larger;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom:50px;
+    background-color: rgb(8, 8, 8, .4);
+  }
+    
+  #home hr {
+    width: 400px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid #f8f8f8;
+    max-width: 90%;
+  }
+  
+  #home ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  
+  #home .social-media-buttons > li {
+    padding-top: 0px;
+    text-align: center;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Handlee';
+  }
+  
+  #home i {
+    font-size: 20px;
+  }
+  
+  #home #github i {
+    font-size: 50px;
+    padding-right: 15px;
+    
+  }
+  
+  #home li a {
+    padding-top: 20px;
+    text-decoration: none;
+    color: aliceblue;
+   font-size: medium;
+  }
+  
+  #home #github {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  #childhood {
+    padding-top:50px;
+    padding-bottom: 100px;
+    
+  }
+  
+  #childhood h3 {
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-family: 'Handlee';
+  }
+  
+  #childhood p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+  
+  #childhood img {
+    margin-top: 40px;
+    height: 200px;
+    border: 6px solid #D4F09E
+  }
+  #education {
+    padding-top:50px;
+    padding-bottom: 100px;
+    
+  }
+  #education h3{
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-family: 'Handlee';
+  }
+#education p{
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+#education img{
+  margin-top: 40px;
+  height: 200px;
+  border: 6px solid #D4F09E
+}
+#skills {
+  padding-top:50px;
+  padding-bottom: 100px;
+  
+}
+#skills h3{
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-family: 'Handlee';
+}
+#skills p{
+font-size: 16px;
+font-weight: 300;
+margin-left: 20px;
+}
+#skills img{
+margin-top: 40px;
+height: 200px;
+border: 6px solid #D4F09E
+
+}
+
+  #portfolio {
+    background: rgb(247, 247, 247);
+    font-family: 'Handlee', cursive;
+  }
+  
+  
+  #portfolio img {
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
+  
+  #portfolio h3 {
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    padding-left: 40px;
+  }
+  
+  #portfolio .portfolio-piece {
+    border: 1px solid white;
+    display: block;
+    width: 250px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 90%;
+  }
+  
+  #contact {
+    background-color: #D4F09E
+    
+    
+    
+  }
+  
+  
+  
+  #contact p {
+    font-size: 14px;
+    padding-left: 40px;
+    padding-top: 20px;
+    word-wrap: break-word;
+  }
+  
+  #contact .social-media-buttons > li {
+    padding: 50px 0;
+    text-align: center;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+  }
+  
+  #contact ul {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  #contact p i {
+    font-size: 18px;
+    color: #302f2f;
+    }
+  
+  #contact li i {
+    font-size: 40px;
+    color: #302f2f;
+  }
+  
+  #contact p a {
+    color: black;
+    padding-bottom: -2px;
+    margin-top: 15px;
+  }
+  
+  #contact p span {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  footer {
+    text-align: center;
+    font-size: 10px;
+    padding: 50px 0;
+    background: rgba(192, 192, 192, 0.9);
+}
+  
+
+p.copyright {
+    margin: 15px 0 0;
+}
